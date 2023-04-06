@@ -1,16 +1,16 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>Informações</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="medium">
 
   <div class="img-info">
     <img src="https://i.discogs.com/ebZPFB5v9Pf-Fsn6nJOjrsyeeqSBg72qyr61a2mI588/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUyMjYw/MjMtMTYwMzc1MTM1/Ni02MDYyLmpwZWc.jpeg" />
   </div>
 
-  <ion-card>
+  <ion-card style="background-color: rgb(127, 193, 255); color:rgb(0, 0, 0)">
     <ion-card-header>
       <ion-card-title>Angèle</ion-card-title>
       <ion-card-subtitle>angelesuprema@gmail.com</ion-card-subtitle>
@@ -23,16 +23,16 @@
 
   <ion-list [inset]="true">
     <ion-item>
-      <ion-label>TELEFONE: 998648325</ion-label>
+      <ion-label>TELEFONE: 998648325</ion-label><ion-icon name="call"></ion-icon>
     </ion-item>
     <ion-item>
-      <ion-label>INSTAGRAM: angele_oficial</ion-label>
+      <ion-label>INSTAGRAM: angele_oficial</ion-label><ion-icon name="logo-instagram"></ion-icon>
     </ion-item>
   </ion-list>
 
 </ion-content>
 
 
-<a href="/home"><ion-button expand="full">Full</ion-button></a>
+<a href="/home" style="text-decoration: none"><ion-button expand="full" color="dark" style="margin-bottom: 0px;">Voltar</ion-button></a>
 
 
